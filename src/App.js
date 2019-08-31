@@ -5,11 +5,14 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from './pages/homepage/homepage.component'
 
-const HatsPage = () => (
-  <div>
+const HatsPage = (props) => {
+  console.info(props)
+  return (
+    <div>
     <h1>HATS PAGE</h1>
   </div>
-)
+  )
+}
 
 
 function App() {
